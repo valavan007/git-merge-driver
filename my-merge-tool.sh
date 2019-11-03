@@ -21,12 +21,12 @@ echo ""
 
 echo "Resolving conflict ..."
 sleep 2
-echo "This is the merge result" > $2
+echo "This is the merge result" > $1
 echo "Conflict resolved!"
 
-echo "resolved: $2"
+echo "resolved: $1"
 echo "---------"
-cat $2
+cat $1
 echo ""
 
 exit 0
